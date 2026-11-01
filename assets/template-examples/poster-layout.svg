@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440" role="img" aria-labelledby="title desc">
+  <title id="title">Neutral editable poster layout</title>
+  <desc id="desc">Theme independent slot example. Edit text, colors and hero group. Text does not auto wrap.</desc>
+  <rect id="background" width="1080" height="1440" fill="#F4F2ED"/>
+  <g id="heading" fill="#17212B" font-family="sans-serif">
+    <text id="title-text" x="72" y="172" font-size="88" font-weight="700">YOUR TITLE</text>
+    <text id="subtitle" x="72" y="420" font-size="32">Optional subtitle</text>
+  </g>
+  <g id="hero-slot">
+    <rect x="72" y="512" width="936" height="640" rx="24" fill="#DDE3EB"/>
+    <circle cx="540" cy="832" r="160" fill="#3366CC"/>
+  </g>
+  <g id="details" fill="#17212B" font-family="sans-serif" font-size="32">
+    <text x="72" y="1240">DATE / LOCATION / INFORMATION</text>
+    <text id="source" x="72" y="1352" font-size="24">Optional source or credit</text>
+  </g>
+</svg>

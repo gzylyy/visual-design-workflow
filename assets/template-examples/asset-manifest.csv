@@ -1,0 +1,2 @@
+asset_id,parent_master,spec_version,local_overrides,reference_ids,source_path,export_path,status,notes
+demo-001,demo-master,v01,none,ref-001,working/demo.svg,exports/demo.png,example,示例行；使用时替换为实际记录

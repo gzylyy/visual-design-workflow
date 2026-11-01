@@ -1,0 +1,24 @@
+{
+  "template_id": "neutral-poster-v1",
+  "description": "中性海报配置示例，不附带自动渲染程序",
+  "canvas": {"width": 1080, "height": 1440, "unit": "px", "safe_margin": 72},
+  "tokens": {
+    "background": "#F4F2ED", "foreground": "#17212B", "accent": "#3366CC",
+    "font_family": "sans-serif", "title_size": 88, "title_min_size": 56, "body_size": 32, "gap": 24
+  },
+  "slots": {
+    "title": {"required": true, "box": [72, 72, 936, 280], "max_lines": 3, "overflow": "use-long-copy-layout-or-request-edit"},
+    "subtitle": {"required": false, "box": [72, 384, 936, 80]},
+    "hero": {"required": false, "box": [72, 512, 936, 640], "fit": "contain", "stretch": false},
+    "details": {"required": false, "box": [72, 1200, 936, 96]},
+    "source": {"required": false, "box": [72, 1320, 936, 48]}
+  },
+  "variants": {"long_copy": "增加标题区高度并压缩或移除主视觉；重新布局后验证碰撞", "no_hero": "释放主视觉槽供正文使用"},
+  "test_inputs": {
+    "short_title": "未来已来",
+    "normal_title": "城市文化与生活创意展",
+    "long_title": "从传统文化到未来科技的跨领域城市生活创新主题展览与公众体验计划",
+    "themes": ["科技", "文化", "美食"]
+  },
+  "export": {"editable": "svg", "preview": "png", "directory": "exports", "requires_user_confirmation": true}
+}

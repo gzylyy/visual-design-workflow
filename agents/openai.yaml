@@ -1,0 +1,6 @@
+interface:
+  display_name: "Visual Design Studio"
+  short_description: "通用视觉设计与 AI 图像创作：海报、信息图、原创角色、局部编辑及系列资产一致性"
+  default_prompt: "使用 $visual-design-workflow 完成本次视觉设计，生成前核对需求与存放格式，并持续维护项目视觉规范。"
+policy:
+  allow_implicit_invocation: true

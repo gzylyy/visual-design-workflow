@@ -1,0 +1,19 @@
+# Local runtime, credentials and generated project outputs
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+project-state.md
+visual-spec.md
+references-index.md
+character-sheet.md
+sources/
+working/
+exports/
+records/
